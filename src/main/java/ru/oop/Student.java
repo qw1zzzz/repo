@@ -6,6 +6,10 @@ public class Student {
         System.out.println("La la la");
     }
 
+    public void surname(){
+        System.out.println("Ларин");
+    }
+
     public void sing(){
         System.out.println("I beleve i can fly");
     }
@@ -18,5 +22,8 @@ public class Student {
         petya.sing();
         petya.sing();
         petya.sing();
+        petya.surname();
+        petya.surname();
+        petya.surname();
     }
 }
