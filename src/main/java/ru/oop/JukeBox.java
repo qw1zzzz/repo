@@ -1,11 +1,8 @@
 package ru.oop;
 
-public class JukeBox
-{
-    public void music(int position)
-    {
-        switch(position)
-        {
+public class JukeBox {
+    public void music(int position) {
+        switch(position) {
             case 1:
                 System.out.println("Пусть бегут неуклюже");
                 break;
@@ -18,8 +15,7 @@ public class JukeBox
         }
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         JukeBox disk = new JukeBox();
         disk.music(1);
         disk.music(2);

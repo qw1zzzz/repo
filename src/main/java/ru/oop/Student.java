@@ -1,18 +1,14 @@
 package ru.oop;
 
-public class Student
-{
-    public void music(String lyrics)
-    {
+public class Student {
+    public void music(String lyrics) {
         System.out.println("I can sing a song: " + lyrics);
     }
-    public void sing()
-    {
+    public void sing() {
         System.out.println("I beleve i can fly");
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Student petya = new Student();
         Student vasya = new Student();
         String song = "be be be";

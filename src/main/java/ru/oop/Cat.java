@@ -30,10 +30,9 @@ public class Cat {
         black.giveNick("black");
         black.show();
 
-
-//        Cat peppy = new Cat();
-//        Cat sparky = new Cat();
-//        String say = peppy.sound();
-//        System.out.println("Peppy says " + say);
+        Cat peppy = new Cat();
+        Cat sparky = new Cat();
+        String say = peppy.sound();
+        System.out.println("Peppy says " + say);
     }
 }
