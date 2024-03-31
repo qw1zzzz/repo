@@ -10,13 +10,16 @@ public class Cat {
         this.name = nick;
 
     }
+
     public void show() {
         System.out.println(this.name + " eats " + this.food);
     }
+
     public String sound() {
         String voice = "miu-miu";
         return voice;
     }
+
     public static void main(String[] args) {
         System.out.println("There is gav's food.");
         Cat gav = new Cat();
