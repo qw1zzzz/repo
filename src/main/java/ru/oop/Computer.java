@@ -32,6 +32,7 @@ public class Computer {
         System.out.println("CPU: " + cpu);
         System.out.println();
     }
+
     public static void main(String[] args) {
         Computer first = new Computer();
         first.printInfo();
